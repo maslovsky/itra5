@@ -44,7 +44,7 @@ import cropCircle from './helpers/canvas-helper.js';
     }
 
     function drawCircle(canvasManager) {
-        canvasManager.addElement(context => new CanvasCircle(context, null, minSize), 0, 0);
+        canvasManager.addElement(context => new CanvasCircle(context, null, minSize), 150, 250);
     }
 
     function bindOnWheel(canvasManager) {
